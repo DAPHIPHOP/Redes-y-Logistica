@@ -199,7 +199,7 @@ p{
 .slider{
     margin: auto;
     overflow: hidden;
-    
+
 }
 .slider ul{
     display: flex;
@@ -216,6 +216,30 @@ p{
 
 .slider p{
     width: 100%;
+}
+
+
+/* Seccion alidaer*/
+.alidaer{
+    margin: auto;
+    overflow: hidden;
+
+}
+.alidaer ul{
+    display: flex;
+    padding: 0;
+    width: 200%;
+
+    animation: cambio 5s infinite;
+    animation-timing-function:ease-in;
+}
+.alidaer li{
+    width: 50%;
+    list-style: none;
+}
+
+.alidaer p{
+    width: 50%;
 }
 
 @keyframes cambio{
@@ -265,9 +289,34 @@ p{
     font-size: 1.3em;
 }
 
+/*Estilos de van*/
+
+.van{
+    background: url(../Img/mensaje.png);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.van:before{
+    content: "";
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+}
+
+.van__content{
+    width: 100%;
+    padding: 0px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-size: 1.3em;
+}
 /*Estilos de Main*/
 .main{
-   margin-top: 400px; 
+   margin-top: 400px;
 }
 
 .section__title{
@@ -291,12 +340,12 @@ p{
     text-align: center;
     padding: 20px;
     max-width: 900px;
-    margin: auto;   
+    margin: auto;
 }
 
 .welcome__txt{
     font-size: 1.2em;
-    color: #777;   
+    color: #777;
 }
 .welcome__btn{
     display: block;
@@ -442,7 +491,7 @@ p{
 
 /*Seccion newslatter*/
 .form{
-   margin: auto; 
+   margin: auto;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -473,7 +522,7 @@ p{
     color: #828282;
 }
 
-.main-footer .container{        
+.main-footer .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -596,8 +645,19 @@ background: #1da1f2;
     .banner:before{
         min-height:500px ;
     }
+
+    .van{
+        min-height:200px ;
+    }
+    .van:before{
+        min-height:200px ;
+    }
     .main{
         margin-top: 400px;
+    }
+
+    .main_nosotros{
+        margin-top: 150px;
     }
 
     .box{
@@ -615,13 +675,17 @@ background: #1da1f2;
        width: 1000px;
        margin: auto;
    }
+   .containervan{
+       width: 500px;
+       margin: auto;
+   }
    .main-title{
        font-size: 2.5em;
    }
     .menu{
        font-size:  1em; ;
    }
-   
+
     .banner{
         min-height:600px ;
     }
@@ -629,6 +693,17 @@ background: #1da1f2;
         min-height:600px ;
     }
     .banner__title, .banner__txt{
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    .van{
+        min-height:200px ;
+    }
+    .van:before{
+        min-height:200px ;
+    }
+    .van__title, .van__txt{
         font-size: 1.5em;
         padding: 10px;
     }
@@ -686,7 +761,7 @@ background: #1da1f2;
         width: 1200px;
         margin: auto;
     }
-   
+
     .desing__title{
         font-size: 2.5em;
     }
@@ -702,6 +777,6 @@ background: #1da1f2;
         margin: auto;
     }
     .banner__title, .banner__txt{
-        font-size:  2em; 
+        font-size:  2em;
     }
-} 
+}

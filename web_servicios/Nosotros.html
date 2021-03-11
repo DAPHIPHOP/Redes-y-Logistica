@@ -1,27 +1,28 @@
-﻿
 <!DOCTYPE html>
 <html>
 
 <head>
   <title>Red Negocios y Logística</title>
   <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-  <link rel="stylesheet" href="css/Estilos_pagina.css" />
+  <link rel="stylesheet" href="../css/Estilos_pagina.css" />
   <meta name="viewport" content="initial-scale=1.0">
 </head>
 
 <body>
 
-  <header class="main-header">
+  <header class=" fixed-top main-header" style="background: url(../Img/mensaje.png);">
     <div class="container container--flex">
 
       <h1 class="main-title"><span class="color-span"> NEGOCIOS Y</span> LOGÍSTICA</h1>
-      <nav class="main-nav">
+      <nav class=" main-nav ">
+
         <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
         <ul class="menu" id="menu">
-          <li class="menu__item"><a href="" class="menu__link menu__link--select"><span>Inicio</span></a></li>
-          <li class="menu__item"><a href="web_servicios/Nosotros.html" class="menu__link"><span>Nosotros</span></a></li>
-          <li class="menu__item"><a href="web_servicios/servicios.html" class="menu__link"><span>Servicios</span></a></li>
+          <li class="menu__item"><a href="../index.html" class="menu__link menu__link--select"><span>Inicio</span></a></li>
+          <li class="menu__item"><a href="" class="menu__link"><span>Nosotros</span></a></li>
+          <li class="menu__item"><a href="servicios.html" class="menu__link"><span>Servicios</span></a></li>
           <li class="menu__item"><a href="" class="menu__link"><span>Gallery</span></a></li>
 
           <div class="nav-social">
@@ -31,75 +32,77 @@
           </div>
         </ul>
       </nav>
-    </div>
-  </header>
-  <div class="banner">
-    <div class="banner__content">
-      <div class="container">
 
-        <div class="slider">
-          <ul>
-            <li>
-              <h2 class="banner__title">01</h2>
-              <p class="banner__txt">SOMOS UNA EMPRESA AL SERVICO DE NUESTROS CLIENTES</p>
-            </li>
-            <li>
-              <h2 class="banner__title">02</h2>
-              <p class="banner__txt">UNA EMPRESA AL SERVICO DE NUESTROS CLIENTES</p>
-            </li>
-            <li>
-              <h2 class="banner__title">03</h2>
-              <p class="banner__txt">EMPRESA AL SERVICO DE NUESTROS CLIENTES</p>
-            </li>
-          </ul>
+    </div>
+
+  </header>
+
+  <main class="main_nosotros">
+    <div class="welcome mb-5 pt-5">
+      <h2 class="section__title" style="color:#EEAD33;">NOSOTROS</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <p class="welcome__txt">RED NEGOCIOS Y LOGÍSTICA E.I.R.L., es una empresa que tiene sus orígenes en el año 2007, brindando servicios de Courier, Paquetería y Mensajería a diferentes empresas de Lima como representantes en la ciudad de
+            Huancayo.
+            <br>Somos una empresa con más de 10 años de permanencia en el mercado, los cuales nos proporciona una amplia experiencia en el rubro de servicios y nos avala como una empresa en constante crecimiento en ofrecer a nuestros clientes Calidad
+            y un Buen Servicio, los cuales son atendidos en provincias como:
+            <li class="welcome__txt">Huancayo</li>
+            <li class="welcome__txt">Jauja</li>
+            <li class="welcome__txt">Concepción</li>
+            <li class="welcome__txt">Chupaca </li>
+            <li class="welcome__txt">Otros</li>
+          </p>
 
         </div>
+        <div class="col-6">
+          <img src="../img/mensaje.png" alt="">
+        </div>
+
       </div>
+
     </div>
-  </div>
-  <main class="main">
-    <section class="welcome">
-      <h2 class="section__title">BIENVENIDA</h2>
-      <P class="welcome__txt">La perseverancia es, sin duda, vital para poder llegar a alcanzar nuestros objetivos, sin ella nunca podremos alcanzar las metas que anteriormente nos hayamos propuesto. Como nos dice Jobs en esta cita, la perseverancia
-        puede que sea la verdadera clave del éxito.</P>
-      <a href="" class="welcome__btn">READ MORE</a>
-    </section>
-    <section class="container-design">
-      <div class="design__item">
-        <h3 class="desing__title">Mensajeria y courier</h3>
-        <img src="Img/mensaje.png" alt="" class="design__img">
+    <div class="container">
+      <main class="row">
+        <div class="welcome mb-5 pt-5">
+          <h2 class="section__title" style="color:#EEAD33;">VISIÓN</h2>
+        </div>
+        <div class="welcome mb-5 pt-5">
+          <h2 class="section__title" style="color:#EEAD33;">MISIÓN</h2>
+        </div>
+
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <p class="welcome__txt">“Convertirnos en una Empresa huancaína líder en brindar soluciones logísticas, distribución y representación equipada cubriendo todas las regiones de demanda de servicio en la cuidad de Huancayo, satisfaciendo las
+            necesidades de los clientes, proporcionando recursos que nos permita adecuarnos con rapidez y dotando un organismo que le asegure agilidad de conducción, oportuna toma de decisiones y dinámica operativa logrando un crecimiento individual
+            y en equipo.”</p>
+        </div>
+        <div class="col-6">
+          <p class="welcome__txt">“Somos una empresa dedicada a ofrecer servicios de Courier, paquetería y mensajería, por medio de furgonetas y vehículos motorizados, entregando un servicio confiable, seguro, económico y en el menor tiempo posible
+            con el fin de crear y mantener una relación comercial sólida y duradera con nuestros clientes, respaldados con un talento humano capacitado y comprometido, a su vez cumpliendo con los requisitos esenciales exigidos en calidad, eficiencia
+            y de acuerdo a los requerimientos satisfaciendo las necesidades de la comunidad huancaína con excelencia y ética, brindando facilidades técnicas y económicas.”</p>
+        </div>
+
       </div>
-      <div class="design__item">
-        <h3 class="desing__title">Envio de paquetes</h3>
-        <img src="img/mensaje.png" alt="" class="design__img">
-      </div>
-      <div class="design__item">
-        <h3 class="desing__title"> Tramite documentario</h3>
-        <img src="img/mensaje.png" alt="" class="design__img">
-      </div>
-      <div class="design__item">
-        <h3 class="desing__title">Traslado de medicamentos</h3>
-        <img src="img/mensaje.png" alt="" class="design__img">
-      </div>
-    </section>
-    <section class="container-testimonials">
-      <h3 class="section__title">TESTIMONIOS</h3>
-      <img src="img/persona1.png" alt="" class="testimonials__img">
-      <p class="testimonials__txt">“Durante nuestra asociación con WSI, se nos mostraron nuevas y prometedoras formas de comercializar nuestra empresa. Hoy trabajamos con estadísticas y datos más precisos y nos damos cuenta de que el espacio digital
-        es una herramienta esencial para que Clínica da Mama se posicione en un campo cada vez más competitivo".</p>
-      <p class="testimonials__name">Catrina Vieira</p>
-    </section>
+
+    </div>
+
+
     <section class="container-tips">
       <div class="design__item">
-        <h3 class="desing__title">Home decor & design tips</h3>
-        <img src="Img/mensaje.png" alt="" class="design__img">
+        <h3 class="desing__title">VALORES DE LA EMPRESA</h3>
+        <img src="../Img/mensaje.png" alt="" class="design__img">
       </div>
       <div class="container-box">
         <div class="box">
           <div class="box__icon"><i class="fas fa-cog"></i></div>
           <div class="box__content">
-            <h3 class="box__title">RESPONSAVILIDAD</h3>
-            <p class="box__txt">No nos hacemos sabios por el recuerdo de nuestro pasado, sino por la responsabilidad de nuestro futuro.-George Bernard Shaw.</p>
+            <h3 class="box__title">RESPONSABILIDAD</h3>
+            <p class="box__txt">Como empresa estamos comprometidos al cumplimiento de nuestras obligaciones hacia nuestros clientes.</p>
           </div>
         </div>
 
@@ -107,7 +110,7 @@
           <div class="box__icon"><i class="fas fa-university"></i></div>
           <div class="box__content">
             <h3 class="box__title">CALIDAD</h3>
-            <p class="box__txt">"Un sueño se vuelve realidad como resultado de tus acciones y tus acciones están controladas, en gran medida, por tus hábitos." JOHN MAXWELL</p>
+            <p class="box__txt">En Redes y logística E.I.R.L. nos exigimos para brindar un servicio de calidad para que nuestros clientes no se conformen con menos.</p>
           </div>
         </div>
 
@@ -115,7 +118,7 @@
           <div class="box__icon"><i class="fas fa-wrench"></i></div>
           <div class="box__content">
             <h3 class="box__title">PUNTUALIDAD</h3>
-            <p class="box__txt">La puntualidad es una de las virtudes cardinales del negocio: insístela siempre en tus subordinados.-Don Marquis.</p>
+            <p class="box__txt">Gestionamos el tiempo como una prioridad principal, para que su envío siempre llegue a la hora acordada.</p>
           </div>
         </div>
       </div>
@@ -123,7 +126,7 @@
     </section>
 
     <section class="newslatter">
-      <h2 class="section__title">AGREGATE</h2>
+      <h2 class="section__title">CONTÁCTANOS</h2>
       <form action="" method="post" class="form">
         <input type="email" placeholder="Email" class="form__mail">
         <input type="submit" class="form__submit" value="Suscribete">
