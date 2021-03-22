@@ -1,20 +1,31 @@
 ﻿
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
   <title>Red Negocios y Logística</title>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <link rel="stylesheet" href="css/Estilos_pagina.css" />
   <link rel="icon" href="Img/logo1.png" width="60" height="60">
   <meta name="viewport" content="initial-scale=1.0">
+  <script src="jS/jquery.flexslider.js"></script>
+  <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+            touch: true,
+            pauseOnAction: false,
+            pauseOnHover: false,
+        });
+      });
+    </script>
 </head>
 
 <body>
   <header class="main-header">
     <div class="container container--flex">
-      <h1 class="main-title"><span class="color-span"> NEGOCIOS Y</span> LOGÍSTICA</h1>
+      <h1 class="main-title"><span class="color-span">RED NEGOCIOS Y</span> LOGÍSTICA</h1>
       <nav class="main-nav">
         <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
         <ul class="menu" id="menu">
@@ -31,57 +42,40 @@
       </nav>
     </div>
   </header>
-  <div class="banner">
-    <div class="banner__content">
-      <div class="container">
-        <h2 class="banner__title">PRIMERO</h2>
-        <p class="banner__txt">SOMOS UNA EMPRESA AL SERVICIO DE NUESTROS CLIENTES</p>
-
-      </div>
+  <section class="slider">
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="Img/1L.jpg">
+                <section class="flex-caption">
+                    <p>SOMOS UNA EMPRESA AL SERVICO DE NUESTROS CLIENTES</p>
+                </section>
+            </li>
+            <li>
+                <img src="Img/2L.jpg" alt="">
+                <section class="flex-caption">
+                    <p>CONTAMOS CON LA MEJOR PLATAFORMA DE INFORMACIÓN</p>
+                </section>
+            </li>
+            <li>
+                <img src="Img/3L.jpg" alt="">
+                <section class="flex-caption">
+                    <p>TE MANTENEMOS EN CONTACTO CON LAS DISTRIBUCIONES</p>
+                </section>
+            </li>
+        </ul>
     </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
-
-  <main class="main ">
+</section>
     <section class="welcome ">
-      <h2 class="section__title ">BIENVENIDA</h2>
-      <P class="welcome__txt">La perseverancia es, sin duda, vital para poder llegar a alcanzar nuestros objetivos, sin ella nunca podremos alcanzar las metas que anteriormente nos hayamos propuesto. Como nos dice Jobs en esta cita, la perseverancia
+      <h2 class="section__title ">BIENVENIDO</h2>
+      <P class="welcome__txt">"La perseverancia es, sin duda, vital para poder llegar a alcanzar nuestros objetivos, sin ella nunca podremos alcanzar las metas que anteriormente nos hayamos propuesto. Como nos dice  Steves Jobs en esta cita, la perseverancia
         puede que sea la verdadera clave del éxito.</P>
-      <a href="" class="welcome__btn">READ MORE</a>
-    </section>
-    <section class="container-design">
-      <div class="design__item">
-        <h3 class="desing__title">Paquetería y courier</h3>
-        <img src="Img/1S.png" alt="" class="design__img">
-      </div>
-      <div class="design__item">
-        <h3 class="desing__title">Mensajería, Trámite Documentario</h3>
-        <img src="img/2S.png" alt="" class="design__img">
-      </div>
-      <div class="design__item">
-        <h3 class="desing__title">Oficina Virtual, Domicilio Comercial</h3>
-        <img src="img/3S.png" alt="" class="design__img">
-      </div>
-      <div class="design__item">
-        <h3 class="desing__title">Almacén</h3>
-        <img src="img/4S.png" alt="" class="design__img">
-      </div>
-    </section>
-    <section class="container-testimonials">
-      <h3 class="section__title">INVITACIÓN</h3>
-      <img src="img/persona1.png" alt="" class="testimonials__img">
-      <p class="testimonials__txt">“En Red Negocios y Logistica estamos dispuestos a ayudarte como empresario emprendedor, estaremos gustosos de trabajar lo más antes posible solo contactenos a nuestros números garantizamos seguridad, calidad y puntualidad".</p>
-      <p class="testimonials__name">Gte. ERNESTO SORIA PARRA</p>
+      
     </section>
     <section class="container-tips">
       <div class="design__item">
         <h3 class="desing__title">OFRECEMOS</h3>
-        <img src="Img/Ofrecemos.jpg" alt="" class="design__img">
+        <img src="Img/O1.png" alt="" class="design__img">
       </div>
       <div class="container-box">
         <div class="box">
@@ -119,45 +113,30 @@
       </form>-->
     </section>
 
-  </main>
+  
         <footer class="main-footer">
             <div class="container">
             <div class="column column--50-25">
-                <h2 class="footer__title">COMPAÑIA</h2>
-                <p class="footer__txt">Somos RED NEGOCIOS Y LOGÍSTICA EIRL., una empresa con más de 10 años de experiencia en servicios logísticos con una fuerte vocación de servicio que responderá a sus necesidades y requerimientos de cada día.</p>
-                <cite class="footer__author">- Ernesto Soria, MD</cite>
-            </div>
-
-            <div class="column column--50-25">
-                <h2 class="footer__title">HORARIOS</h2>
-                <p class="footer__txt">Lunes a Viernes.</p>
-                <p class="footer__txt"> 9:00am-13:00pm.</p>
-                <p class="footer__txt"> 15:00pm-18:00pm.</p>
-                <h2 class="footer__title">SABADOS</h2>
-                <p class="footer__txt">9:00am-13:00pm.</p>
-            </div>
-
-            <div class="column column--50-25">
-                <h2 class="footer__title">CONECCIONES</h2>
+                <h2 class="footer__title">CONEXIONES</h2>
                 <div class="footer__socials">
                    <div class="social-icon">
                    <a href="https://www.facebook.com/Red-Negocios-y-Logistica-106344261444142" target="blank"> <i class="fab fa-facebook-f"></i></a>
-                    <a class="social__link" href="" >Like us on Facebook</a>
+                    <a class="social__link" href="" >Síguenos en facebook</a>
                    </div> 
 
                    <div class="social-icon">
                     <a href="https://www.youtube.com/channel/UCR4CmodDHm0PA1QNqFSSevQ" target="blank"> <i class="fab fa-youtube"></i>
-                        <a class="social__link" href="">Follow us on youtube</a>
+                        <a class="social__link" href="">Síguenos en youtube</a>
                     </div>
                     
                     <div class="social-icon">
                         <a href="https://www.instagram.com/rednegocioylogistica/" target="blank"><i class="fab fa-instagram"></i>
-                        <a class="social__link" href="">Follow us on Instagram</a>
+                        <a class="social__link" href="">Síguenos en Instagram</a>
                     </div>
 
                     <div class="social-icon">
-                        <a href="https://www.linkedin.com/in/red-negocios-y-log%C3%ADstica-33a294208/" target="blank"><i class="fab fa-linkedin"></i>
-                        <a class="social__link" href="">Follow us on Linkedin</a>
+                        <a href="https://www.linkedin.com/company/72313205" target="blank"><i class="fab fa-linkedin"></i>
+                        <a class="social__link" href="">Síguenos en Linkedin</a>
                     </div>                   
                 </div>
             </div>
@@ -166,8 +145,7 @@
                 <h2 class="footer__title">CONTACTO</h2>
                 <div class="contact-icon">
                     <i class="fas fa-map-marker-alt"></i>
-                    <p class="contact__txt" >AV. GIRALDEZ 308 OF. 200-A (2do Piso) Huancayo
-                        Huancayo-Junín.</p>
+                    <p class="contact__txt" >AV. GIRALDEZ 308 OF. 200-A (2do Piso)Huancayo-Junín.</p>
                 </div>
 
                 <div class="contact-icon">
@@ -180,23 +158,17 @@
                     <p class="contact__txt" >rednegociosylogistica@gmail.com</p>
                 </div> 
                 
-                <div class="contact-icon">
-                    <i class="far fa-credit-card" ></i>
-                    <p class="contact__txt" > Visa, MasterCard, Yape</p>
-                </div> 
-
             </div>
-
-            <section class="container-hubicacion">
-                <h3 class="section__title-1">OF. HUANCAYO </h3>
-                <hr>   
+            <div class="column column--50-25">
+            
+                <h3 class="section__title-1">OF. HUANCAYO </h3>  
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.6558954040174!2d-75.20991354906248!3d-
                 12.067180391411767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910e964ea2a29139%3A0x7f5e90e4506e4121!2s
-                Red%20Negocios%20y%20Logistica!5e0!3m2!1ses!2spe!4v1614350784112!5m2!1ses!2spe" width="450" height="350" style="border:0;"
+                Red%20Negocios%20y%20Logistica!5e0!3m2!1ses!2spe!4v1614350784112!5m2!1ses!2spe" width="350" height="250" style="border:0;"
                  allowfullscreen="" loading="lazy"></iframe>
 
-            </section>   
-
+             
+            </div>
         </div>
     <p class="copy">© 2021 Red Negocios y Logística. All Rights Reserved │ Design by <span class="color-span"> W3layouts </span></p>
   </footer>
